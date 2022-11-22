@@ -174,7 +174,9 @@ function touchStarted() {
 		if (touches[i].x > width/2-(buttons[0].width)-(buttons[1].width/2) && touches[i].x < width/2-(buttons[1].width/2) && touches[i].y > height - buttons[0].height) {
 			if (ifbg == true) {
 				ifbg = false;
-				background("white");
+				if (snap == false) {
+					background("white");
+				}
 				buttons[0].html(ifbgtext[1]);
 			} else {
 				ifbg = true;
