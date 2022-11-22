@@ -52,9 +52,7 @@ class Lines {
 				}
 			}
 		} else {
-			if (tresh > 0) {
-				tresh -= 0.01;
-			}
+			tresh = 0;
 		}
 
 		bezier(lerp(this.x1, cx1, tresh), lerp(this.y1, cy1, tresh), this.x2, this.y2, this.x3, this.y3, lerp(this.x4, cx4, tresh), lerp(this.y4, cy4, tresh));
