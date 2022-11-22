@@ -15,7 +15,7 @@ let snap = false;
 
 const ifbgtext = ["draw", "drag"];
 const wobbletext = ["inner", "outer"];
-const snaptext = "snap";
+const snaptext = "freeze";
 let buttons = [];
 
 class Lines {
