@@ -116,6 +116,8 @@ dist
 .pnp.*
 
 # other stuff
+/*.exe
 ngrok
+/ngrok
 .DS_Store
 jsconfig.json
