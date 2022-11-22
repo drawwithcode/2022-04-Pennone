@@ -126,16 +126,6 @@ function setup() {
 	
 }
 
-function exect(instance) {
-	if (instance == 0) {
-		console.log("instance 1");
-	} else if (instance == 1) {
-		console.log("instance 2");
-	} else {
-		console.log("instance 3");
-	}
-}
-
 function draw() {
 	for (let i = 0; i < bkg.length; i++) {
 		bkg[i] = lerp(bkg[i], randombkg[i], 0.005);
